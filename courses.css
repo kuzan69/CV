@@ -1,0 +1,44 @@
+.front-page {
+  display: flex;
+}
+
+.me {
+  transition: transform .2s;
+}
+
+.me:hover {
+  transform: scale (1.02);
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+}
+
+.table {
+  border-style: solid;
+  border-color: black;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  padding: 3px;
+}
+
+.table-title {
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.border {
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+}
+
+.list {
+  font-size: 18px;
+  width: 750px;
+  margin-bottom: 45px;
+}
+
+.recommendation {
+  width: 800px;
+  font-size: 18px;
+}

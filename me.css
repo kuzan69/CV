@@ -1,0 +1,44 @@
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.me {
+  position: absolute;
+  left: 0;
+  margin-top: 33px;
+  margin-left: -5px;
+  transition: transform .2s;
+}
+
+.me:hover {
+  transform: scale (1.02);
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+}
+
+.question {
+  font-size: 20px;
+  border-style: solid;
+  padding: 30px;
+  padding-top: 5px;
+  height: 48rem;
+  width: 60rem;
+  margin-top: 40px;
+  margin-left: 14rem;
+  font-size: 25px;
+}
+
+.my-interests-title {
+  font-weight: bold;
+}
+
+.link-to-interests {
+  color: rgb(52, 122, 202);
+  cursor: pointer;
+  transition: opacity .15s;
+}
+
+.link-to-interests:active {
+  opacity: 0.6;
+}

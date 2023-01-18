@@ -1,0 +1,78 @@
+.front-page {
+  margin-left: 60px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.first-div{
+  height: 100%px;
+  padding-right: 80px;
+}
+
+.me {
+  object-fit: cover;
+  position: absolute;
+  width: 600px;
+  top: 22%;
+  left: 29.2%;
+  transition: transform .2s;
+}
+
+.me:hover {
+  transform: scale (1.02);
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+}
+
+.work-for-me {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: white;
+  width: 145.5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 30px;
+  top: 92%;
+  left: 2%;
+  position: absolute;
+  cursor: pointer;
+  transition: transform .3s, opacity .1s;
+}
+
+.work-for-me:hover {
+  transform: scale (1.2);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}
+
+.work-for-me:active {
+  opacity: 0.6;
+}
+
+.work-for-me {
+  background: linear-gradient(270deg, #ffffff, #a7a7a7, #727272, #a7a7a7,  #ffffff);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}

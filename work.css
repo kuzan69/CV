@@ -1,0 +1,49 @@
+.front-page {
+  margin-left: 30px;
+  display: flex;
+}
+
+.form {
+  width: 50%;
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+.submit-knapp {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text-area {
+  width: 40%;
+  height: 4vw;
+  font-size: 16px;
+  font-family: arial;
+}
+
+.info {
+  width: 50%;
+}
+
+.info-title {
+  text-align: center;
+}
+
+.main-info {
+  height: 100%;
+  border-style: solid;
+  margin-right: 6%;
+  height: 90%;
+}
+
+.main-info-style {
+  padding: 25px;
+}
+
+.what {
+  font-weight: 100;
+}
+
+.list {
+  font-size: 20px;
+}
